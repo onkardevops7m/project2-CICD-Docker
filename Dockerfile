@@ -5,4 +5,4 @@ From tomcat:8-jre8
 MAINTAINER onkardevops7m
 
 # copy war file on to container
-COPY /root/target/mvn-hello-world.war /usr/local/tomcat/webapps/app1.war
+COPY mvn-hello-world.war /usr/local/tomcat/webapps/app1.war
